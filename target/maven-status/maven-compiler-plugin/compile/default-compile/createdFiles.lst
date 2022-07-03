@@ -1,11 +1,10 @@
+pages/loginMenu/ForgotPassword.class
 common/CommonActions.class
+pages/domainSelect/DomainSelect.class
 pages/base/BasePage.class
-pages/loans/CarLoans.class
 constans/Constants$DOMAINS_URL.class
 constans/Constants.class
-constans/Constants$TimeoutVariables.class
-constans/Constants$TestDataForMobileReplenishment.class
-constans/Constants$CURRENCY.class
+pages/loginMenu/Login.class
 common/Listener.class
+constans/Constants$EMAILS_AND_PASSWORDS.class
 common/Config.class
-pages/telecomunications/MobilePhoneReplenishment.class

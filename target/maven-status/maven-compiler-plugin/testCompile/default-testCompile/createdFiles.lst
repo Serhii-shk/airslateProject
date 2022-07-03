@@ -1,3 +1,3 @@
-tests/mobile_replenishment/positive/MobilePhoneReplenishmentPositiveTest.class
-tests/car_loans/positive/CarLoansPositiveTest.class
+tests/loginMenu/negative/LoginMenuNegativeTest.class
+tests/loginMenu/positive/LoginMenuPositiveTest.class
 tests/base/BaseTest.class
