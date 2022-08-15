@@ -11,6 +11,7 @@
         <module name="airslateProject" />
         <module name="selenium" />
         <module name="selenide" />
+        <module name="selenium-course" />
       </profile>
     </annotationProcessing>
   </component>

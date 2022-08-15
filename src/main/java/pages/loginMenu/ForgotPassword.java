@@ -1,6 +1,6 @@
 package pages.loginMenu;
 
-import com.codeborne.selenide.Condition;
+
 import com.codeborne.selenide.SelenideElement;
 import pages.base.BasePage;
 
@@ -17,7 +17,6 @@ public class ForgotPassword extends BasePage {
 
     /** Clicking a Forgot password button */
     public ForgotPassword clickForgotPasswordButton() {
-//        forgotPasswordButton.shouldBe(Condition.visible).click();
         forgotPasswordButton.shouldBe(visible, Duration.ofSeconds(5)).click();
         return this;
     }

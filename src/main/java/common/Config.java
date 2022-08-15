@@ -11,10 +11,13 @@ public class Config {
     public static boolean CLEAR_REPORTS_DIR = true;
     /**Whether to keep the browser open after the tests*/
     public static final boolean HOLD_BROWSER_OPEN = false;
+    /** Browser visibility during test execution*/
+    public static final boolean HIDING_BROWSER_DURING_TEST = false;
 
     static {
         Configuration.holdBrowserOpen = HOLD_BROWSER_OPEN;
         Configuration.reportsFolder = "build/reports/tests";
         Configuration.browser = BROWSER_NAME;
+        Configuration.headless = HIDING_BROWSER_DURING_TEST;
     }
 }
